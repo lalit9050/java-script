@@ -24,7 +24,7 @@ VARIABLES IN JS:-
 5. variables name are case senstive ( fullname, FULLNAME both are different variables)
 
 we can store null and undefined values :-
-    eg- age = null ; 
+    eg- age = null ;
         console.log(age); ---( result is null which means that their null value that age contains)
 
         age; (an varible is declared without assigning any value or data )
@@ -35,7 +35,7 @@ we can name the variables without using any keywords directly but we can use som
 var:- variables can be re-declared and updated and have a global scope variable( which means we can use the variables any where in the code)
       eg:- var age = 23;
             var age = 24;
-            var age = 43; 
+            var age = 43;
 
             console.log(age);---- ( result will be 43 because the value of age is updated in next line and then again updated and the age variable is declared again and again using var)
 
@@ -55,4 +55,27 @@ const:- variables can not be re-declared and can not be updated and have block s
          console.log(PI)----( result is 3.14)
   in java script let and const are introduced in 2015 before 2015 their is only var.
 
+DATATYPES IN JAVASCRIPT:-
+           datatypes are of two types : primitive datatype, non- primitive datatype
+        primitive data types:-
+                    string, number, boolean, null, undefined, BigInt, Symbol
 
+                    let fullName = "Lalit Lamba";----(typeof fullName----string)
+                    let age =       34;         -----(typeof age----number)
+                    let isfollow =   true;       -----(typeof isfollow----boolean)
+                    let x =         null;       -----(typeof x----null(object))
+                    let y;                      -----(typeof y ----undefined)
+                    let a = BigInt("1234")      -----(typeof a----BigInt)
+                    let b = Symbol("hello...!")------(typeof b----Symbol)
+
+        non-primitive data types:-
+                    object, array , function
+        object:-
+                    const(let) student(object name) = {
+                        key : value,
+                        key : value,
+                        key : value,
+                    };
+        the object name should be unique , we can't declare the same name again and one thing that we can change or update the value of any key.
+        to print the whole object - console.log(objectname);
+        to print any particular value of key - console.log(objectname.key); , console.log(objectname["key"]);
