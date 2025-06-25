@@ -71,7 +71,7 @@ DATATYPES IN JAVASCRIPT:-
         non-primitive data types:-
                     object, array , function
         object:-
-                    const(let) student(object name) = {
+                    const(let) object name = {
                         key : value,
                         key : value,
                         key : value,
@@ -79,3 +79,4 @@ DATATYPES IN JAVASCRIPT:-
         the object name should be unique , we can't declare the same name again and one thing that we can change or update the value of any key.
         to print the whole object - console.log(objectname);
         to print any particular value of key - console.log(objectname.key); , console.log(objectname["key"]);
+        to check typeof key - console.log(typeof objectname.key);
