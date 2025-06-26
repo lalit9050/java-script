@@ -45,6 +45,14 @@ console.log(" m == o :", m == o);     // the string datatype is converted into n
 console.log(" m === o :", m === o);     // === is used to compare strictly here datatype not be converted similary we have !==
 console.log(" m !== o :", m !== o);
 
+console.log(" ");
+console.log("Logical operators:-");
+m = 10 ;
+n = 5 ;
+console.log("cond1 && cond2 :", m === 10 && m > n);     // And operator && gave only true output when both condition are true
+console.log("cond1 || cond2 :" , m < n || n == 5);      // or operator || gave true output if any of one condition is true
+console.log("!cond1 :" , !(m === 10) );                 // logical not operator works on only one condition , makes true into false
+
 
 
 

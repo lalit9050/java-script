@@ -80,3 +80,22 @@ DATATYPES IN JAVASCRIPT:-
         to print the whole object - console.log(objectname);
         to print any particular value of key - console.log(objectname.key); , console.log(objectname["key"]);
         to check typeof key - console.log(typeof objectname.key);
+
+OPERATORS IN JAVASCRIPT :-
+                        with the help of operators we can perform operation between one or two operands, some important types of operators are mentioned below
+        1. Airthmetic operators:-
+                        Addition (+) , Substraction (-) , Multiplication (*) , Division(/) , Modulus (%) , Exponentation (**)
+        2. Unary operator:-
+                        these operators are perform only on one operands that's why these are called unary operator.
+                        Increment operator ( ++a , a++) , Decrement operator (--a , a--)
+        3.Assignment operator:-
+                        used to assign value or can combine with the airthmetic operator.
+                        (=) , (+=) , (-=) , (*=) , (/=) , (%=), (**=)
+        4.Comparision operator:-
+                        used to compare two values or result can gave the output in terms of boolean i.e true or false
+                        == (equals to -compare two values if equal result true or not then false)
+                        != (not equals to - if both value are not equal then output is true otherwise false)
+                        >= (greater than equal to - if the value is greater than or equal to other then output is true otherwise false)
+                        <= (less than equal to - if the value is less than or equal to other then output is true otherwise false)
+                        === (this is also used to checks whether the two values are equal to not but === is used to checks the valuse strictly means it also checks the datatypes , in == if both are different datatypes like "5" , 5 then the string is converted into number and then it is compared)
+                        !== ( strictly checks if the value are not equals to others)
