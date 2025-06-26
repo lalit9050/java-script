@@ -99,3 +99,32 @@ OPERATORS IN JAVASCRIPT :-
                         <= (less than equal to - if the value is less than or equal to other then output is true otherwise false)
                         === (this is also used to checks whether the two values are equal to not but === is used to checks the valuse strictly means it also checks the datatypes , in == if both are different datatypes like "5" , 5 then the string is converted into number and then it is compared)
                         !== ( strictly checks if the value are not equals to others)
+        5.Ternary operator:-
+                        the ternary operator is a compact form of if else statement
+                        condtion ? "true output" : "false output" ;
+
+CONDITIONS IN JAVASCRIPT:-
+if
+if-else
+else-if---if .....else if ....else if .....else
+switch:- syntax of switch is :
+
+        switch(exp){
+            case "case exp" : statement;
+            break;
+            
+            case "case exp2" : statement;
+            break;
+
+            case "case exp3" : statement;
+            break;
+            .
+            .
+            .
+            .
+            .
+            case "case expN" : statement;
+            break;
+
+            default : statement;
+        }

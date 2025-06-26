@@ -53,7 +53,14 @@ console.log("cond1 && cond2 :", m === 10 && m > n);     // And operator && gave 
 console.log("cond1 || cond2 :" , m < n || n == 5);      // or operator || gave true output if any of one condition is true
 console.log("!cond1 :" , !(m === 10) );                 // logical not operator works on only one condition , makes true into false
 
+console.log(" ");
+console.log("Ternary operator:-");
 
+let phonePrice = 15000;
+
+let result = phonePrice >= 15000 ? " your phone value is more than or equal to 15000" : "your phone value is less than 15000";
+
+console.log(result);
 
 
 
