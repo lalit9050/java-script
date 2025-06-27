@@ -53,3 +53,25 @@ const student = {
 for( let i in student){
     console.log(i ,":",  student[i]);
 }
+console.log("");
+console.log("some normal practice question");
+console.log("print even numbers from 0 to 100 :");
+
+for( let i =0; i<= 100 ; i++){
+    if( i % 2 === 0){
+        console.log(i);
+    }
+}
+console.log("Creates a game where you start with any random digit number. ask the user to keep guessing the game number until the user enters correct number");
+
+let number = 46 ;
+let guessNo = prompt("Let's play a number game .Guess the number which i choose");
+let count = 1;
+
+while(guessNo != number){
+    
+    guessNo = prompt("oops...wrong one.Guess again");
+    count++;
+
+}
+console.log("congrats... your guess is right in" , count, "chances");
