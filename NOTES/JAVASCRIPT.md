@@ -106,7 +106,7 @@ OPERATORS IN JAVASCRIPT :-
 CONDITIONS IN JAVASCRIPT:-
 if
 if-else
-else-if---if .....else if ....else if .....else
+else-if--- if......else if ....else if .....else
 switch:- syntax of switch is :
 
         switch(exp){
@@ -128,3 +128,55 @@ switch:- syntax of switch is :
 
             default : statement;
         }
+
+LOOPS IN JAVASCRIPT:-
+    1.for loop :-
+                for( intialization ; condition ; updation){
+                    statements;
+                }
+            eg:-
+                for (let i = 1 ; i <=5 ; i++){
+                    console.log("for loop here this message is going to print 5 times");
+                }
+    2.while loop :-
+                intialization;
+                while(condition){
+                    statements;
+                    updation;
+                }
+            eg:-
+                let i = 1;
+                while(i<=5){
+                    console.log(i);
+                    i++;
+                }
+    3.do while loop :-
+                there is a little bit difference in this loop is that no matter what condition it have it will run atleast one time because in this loop first the statements run and then the condition are get checked.
+                
+                intialization;
+                do{
+                    statements;
+                    updation
+                } while (condition);
+            eg:-
+
+                let i = 1;
+                do{
+                    console.log(i);
+                    i++;
+                } while(i<=10);
+    4.for of loop :-
+                for of loop in JS is used to run character of string or array
+            for(let val of strVal){
+                statements;
+            }
+
+            eg:- src = " loops.js "
+        
+    5.for in loop :-
+                for in loop in JS is used to run keys in objects.
+
+                for(let val in strVal){
+                    statements;
+                }
+            eg:- src = " loops.js "
