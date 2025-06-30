@@ -180,3 +180,26 @@ LOOPS IN JAVASCRIPT:-
                     statements;
                 }
             eg:- src = " loops.js "
+
+    STRING IN JAVA SCRIPT:-
+
+                let str " lalit lamba "; ---- this is an normal string string can be written in between " or '.
+                we can get the length of the string using str.length or str[index value] to get any particular index character.
+        template literals:-
+                there is a thing named as template literals which includes embeded exepression in the string which is written between `(back tick) eg:-
+                                let str = "this is a normal string"---(normal string)
+                                let str2 = `This is a template literal and expression written in this is like ${any variable} and we can continue writing and can add more variables like ${variable}`;
+        escape character:-
+                some useful escape character are \n , \t
+            \n:- \n is used to print in the next line
+            \t:- \t is used to gave a tab space
+        string method:-
+                
+                let str = "lalit lamba"
+                str.toUpperCase();
+                str.toLowerCase();
+                str.trim();             // remove whitespaces
+                str.slice(start, end)   // returns part of string
+                str1.concat(str2)       // add two string
+                str.replace(search val , new val)   // replace any value of string
+                str.charAt(idx)
