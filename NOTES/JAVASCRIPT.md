@@ -202,4 +202,16 @@ LOOPS IN JAVASCRIPT:-
                 str.slice(start, end)   // returns part of string
                 str1.concat(str2)       // add two string
                 str.replace(search val , new val)   // replace any value of string
-                str.charAt(idx)
+                str.charAt(idx);
+
+        ARRAY methods:-
+
+        let arr= [23,43,435,76,25,7];
+        arr.push(45,45,987);
+        arr.pop();
+        arr.toString();
+        arr.concat(arr2);
+        arr.unshift(3);     // add items into the starting of the array
+        arr.shift();        // delete from the starting of the array
+        arr.slice(startidx , endingidx)     // return part of array
+        arr.splice(startidx, deletecount, new elements)     // used to change the original array or to delete multiple items from an specific index and also can add multiple items or replace them using splice method.
