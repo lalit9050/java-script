@@ -215,3 +215,24 @@ LOOPS IN JAVASCRIPT:-
         arr.shift();        // delete from the starting of the array
         arr.slice(startidx , endingidx)     // return part of array
         arr.splice(startidx, deletecount, new elements)     // used to change the original array or to delete multiple items from an specific index and also can add multiple items or replace them using splice method.
+
+
+    FUNCTION IN JS:-
+        declaring any function :-
+            function functionName(){
+                statements that will run while function is being called
+            }
+        function calling:-
+            functionName(value);
+
+        ARROW FUNCTION :-
+                const functionName = (str) =>{
+                    statements that will run while function is being called
+                }
+
+                functionName("function called");
+
+        arr.forEach()       // used to do any changes in each idx of array
+        arr.map()           // same as forEach but it returns copy of the array
+        arr.filter()        // used to sort out the array
+        arr.reduce()        // reduce the array to gave one output
